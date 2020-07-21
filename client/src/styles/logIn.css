@@ -1,0 +1,79 @@
+#auth_page{
+    background-image: url("/login-background01.jpg");
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-size: cover; 
+}
+
+.auth_page_content{
+    display: flex;
+    justify-content: center;
+}
+
+.auth_form_content{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_block_user{
+    flex: 0.45; 
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(23, 22, 22, 0.831);
+    border-radius: 15px;   
+    padding: 60px 60px 0 60px; 
+}
+
+.add_form_label{
+    font-size: 3em; 
+}
+
+.user_input{
+    width: 95%;
+    height: 100px;
+    border: none;
+}
+
+#signUp-block{
+    text-align: center;
+    margin: 5px 0 30px 0;
+    color: white;   
+}
+
+.log_In{
+    text-align: center;
+    flex: 1.5;
+    margin: 10px 0 20px 0;
+}
+
+.sign_btn{
+    width: 300px;
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    font-size: 2em;
+    background-color: rgb(220, 30, 24);
+    color: white;
+    text-align: center;
+}
+
+#signUp-block p{
+    font-size: 2em;
+    padding-top: 0;
+}
+
+#signUp-block button{
+    font-size: 2em;
+    border: none;
+    border-bottom: 1px solid  rgb(235, 47, 14);
+    background-color: rgb(23, 22, 22);
+    color: rgb(235, 47, 14);
+    
+}
+
+
+
+

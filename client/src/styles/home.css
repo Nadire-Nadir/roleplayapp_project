@@ -1,0 +1,83 @@
+#character_card_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    color: black; 
+}
+
+.character_card{
+    min-width: calc((100%) / 3);
+    height: 700px; 
+}
+
+.character_card_content{
+    width: 95%;
+    height: 600px;
+    margin: 50px 10px 50px 10px;  
+}
+
+.myCharacters{
+    background-color: white; 
+    border: 1px solid rgb(116, 159, 187);
+    height: 480px;
+    font-size: 2em;  
+}
+
+.character_profile{
+    margin: 50px 50px 0 50px;
+    display: flex;  
+}
+
+.chracter_profile_pic{
+    width: 160px;
+    height: 160px;
+    background-image: url("/character_profile1.jpeg");
+    background-repeat: no-repeat;  
+    background-position: center;
+    border-radius: 80px;   
+    margin-right: 40px;  
+}
+
+.character_name{
+    float: right;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.character_detail{
+    list-style: none; 
+    font-size: 1em;
+    padding-left: 60px;
+}
+
+.character_info{
+    float: left;
+    margin-right: 20px;
+}
+
+.character_action_block{
+    background-color: rgb(31, 29, 29);
+    height: 85px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.characterCard_action_btn{
+    width: 110px;
+    height: 40px;
+    border: none;
+    font-size: 1.5em;
+    color: rgb(27, 154, 240);
+    font-weight: bold;
+    background-color: rgb(31, 29, 29);
+}
+
+#delete_character_btn{
+    color: #C65854;
+}
+
+

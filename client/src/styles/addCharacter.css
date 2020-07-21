@@ -1,0 +1,55 @@
+#add_character{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex: 0.5;
+    margin-top: 30px; 
+}
+
+#add_character_content{
+    background-color:  rgba(31, 29, 29, 0.947);
+    margin-top: 50px; 
+    padding: 50px;
+    color: white;
+}
+
+.character_form_group{
+    margin: 20px;  
+}
+
+.add_character_form{
+    font-size: 3em;
+}
+
+.character_input{ 
+    margin-left: 40px;
+    font-size: 0.5em;
+    height: 50px;  
+    border: none;
+    border-right: 0;  
+    color: #8D9095;    
+    padding-left: 20px;
+}
+
+.basic_input{
+    width: 30%;
+}
+
+.skill_input{
+    width: 12%;
+}
+
+#create_character_btn_div{
+    text-align: center;
+}
+
+#create_character_btn{ 
+    background-color: rgb(27, 154, 240);
+    width: 450px;
+    height: 90px;
+    font-size: 2em;
+    color:white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}

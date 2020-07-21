@@ -1,2 +1,2 @@
-# roleplayapp_project
-This is our project
+# fullstack-project
+This is role-play game project

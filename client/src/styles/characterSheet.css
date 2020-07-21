@@ -1,0 +1,214 @@
+#Csheet_page {
+    background-color: #090809;
+    color: black;
+    height: 100%;
+}
+
+#charactersheet_detail {  
+    margin: 50px;    
+}
+
+.b_g {
+    background-color:white;
+    border-radius: 10px;
+    /* box-shadow: 0 3px 6px #F2EECB, 0 3px 6px #F2EECB;   */
+}
+
+.border {
+    border: 1px solid rgb(116, 159, 187);
+}
+
+.content {
+    width: calc((100%) - 50px);
+    height: calc((100%) - 50px);
+    margin: 25px;
+    background-color: teal;
+}
+
+.box_title {
+    font-size: 1.3em;
+    padding-top: 5px;
+}
+
+#frofile_block {
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#basic_info_block {
+    flex: 3;
+    margin: 75px 40px 0 0;
+    height: 300px;
+    color: black;
+}
+
+#basic_info_block p {
+    font-size: 2em;
+}
+
+#cha_pic_block {
+    flex: 1;
+    height: 450px;
+    background-image: url("/csheet_profile.jpg");
+    background-repeat: no-repeat;  
+    background-position: center;
+}
+
+#cha_core_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    height: 2000px;
+    margin: 20px 20px 20px 0;
+}
+
+#block_01 {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+#core_skill_block {
+    flex:1;
+}
+
+.core_skill {
+    width: 160px;
+    height: 200px;
+    margin: 70px 30px 50px 0;
+    text-align: center;;
+}
+
+.core_skill_dice{
+    width: 120px;
+    height: 80px;
+    margin: 10px 20px 0 20px;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.core_skill_value{
+    width: 80px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 2.2em;
+    margin: 10px 0 0 40px;
+    background-color:white;
+}
+
+.core_skill_value p{
+    margin-top: 12px;
+}
+
+#skill_2 {
+    flex: 2;
+    height: 1960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill_2_col {
+    margin: 30px 10px 30px 0;
+}
+
+#inspiration_box {
+    flex: 0.5;
+}
+
+.value_box {
+    width: 30%;
+    height: 140%;
+    float: right;
+    position: relative;
+    margin-top: -90px;
+}
+
+#pro_bonus_box {
+    flex: 0.5;
+}
+
+#saving_throws {
+    flex:3;
+}
+
+#saving_throws_content{
+  
+}
+
+#skill_details {
+    flex: 6;
+}
+
+#skill_details_content {
+
+}
+
+
+#block_02 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+#hit_block {
+    flex:1;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.hit_block0 {
+    flex: 1;
+    margin-top: 10px; 
+}
+
+#quick_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick_info0 {
+    flex: 1;
+    margin: 5px;
+}
+
+#dice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dice_block {
+    flex: 1;
+    margin: 5px;
+}
+
+#cur_points {
+    flex: 1.4;
+    margin-top: 10px;
+}
+
+#atk_spl {
+    flex:1;
+}
+
+#block_03 {
+    flex: 3.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block_03_00 {
+    flex: 1;
+    margin: 10px;
+}
+
+
+

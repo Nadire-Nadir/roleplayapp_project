@@ -1,0 +1,67 @@
+.page{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;    
+}
+
+.page_content{
+    position: relative;
+    width: 63vw;
+}
+
+.page_header{
+    margin-top: 70px;
+    height: 200px;
+    border-bottom: 5px solid gray; 
+}
+
+.header_btn_div{
+    float: right;
+    margin: 20px 70px 0 0;
+}
+
+.header_btn{
+    background-color: rgb(27, 154, 240);
+    width: 430px;
+    height: 80px;
+    font-size: 2.4em;
+    color:white;
+    border: none;
+    border-radius: 10px;
+}
+
+.header_title{
+    font-size: 2.5em;
+    padding-top: 40px;
+    margin-left: 70px;
+    color: black;
+}
+
+.add_form_group{
+    flex: 3;
+
+}
+
+.form_content{
+    padding: 70px;   
+}
+
+.add_form_label{
+    font-size: 3em; 
+    color: white;
+}
+
+.add_form_control{  
+    font-size: 1.7em;
+    padding: 0 10px;
+    margin: 8px 0;
+    border-radius: 4px; 
+}
+
+.action_btns {
+    outline: none;
+}
+
+
+
